@@ -73,7 +73,7 @@ export default function Home() {
           )
             :
             <div className=" text-amber-50 text-center">
-              <p>Nenhuma nome foi encontrado</p>
+              <p>Nenhum nome foi encontrado</p>
             </div>
           }
         </div>
