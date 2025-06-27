@@ -1,12 +1,8 @@
 'use client';
-import { FormEvent, useEffect, useReducer, useState } from "react";
+import { FormEvent, useReducer, useState } from "react";
 import ReducerCrud from "./reducer";
+import { Aluno } from './types';
 
-type Aluno = {
-  type?: 'add' | 'edit' | 'del',
-  id: number,
-  name: string,
-}
 
 export default function Home() {
 
